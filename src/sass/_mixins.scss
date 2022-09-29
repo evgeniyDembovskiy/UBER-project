@@ -1,0 +1,21 @@
+@mixin btn_hover {
+    transition: background-color .3s;
+    &:hover {
+      background-image: none;
+      background-color: #15afce;  
+    }
+}
+
+@mixin white_section_header {
+    .section_header {
+        color: #000;
+        background-color: #fff;
+    }
+    .section_title {
+        color: #fff;
+    }
+    .section_subtitle {
+        margin-top: 0;
+        color: #fff;
+    }
+}
